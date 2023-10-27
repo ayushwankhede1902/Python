@@ -14,6 +14,6 @@ except ValueError:
 except FileNotFoundError:
   print("File is not found")
 else:
-  print("There are no such exceptions")
+  print("There are no such exceptions, Else block is printed when the code has no exceptions")
 finally:
   print("Finally block is executed always")
